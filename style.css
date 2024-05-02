@@ -1,0 +1,233 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 10% 1fr 15%;
+}
+.up{
+    grid-column: 2/3;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.buttons{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex: 1 1 0;
+    justify-content:space-between;
+    align-items: center;
+    border: none;
+    
+}
+button{
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    color: inherit; 
+    cursor: pointer;
+    color:#4F5665;
+}
+.about{        
+    font-size: 1.4rem;
+    border: none;
+}
+.about:hover {
+    color:#000000;
+}
+.signUps{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.signin{
+    border: none;
+    color:#4F5665;
+}
+.signin:hover {
+    color: black;
+}
+.signup{
+    border-radius: 5px;
+    border-color: #F53855;
+    color:#F53855;
+    border-width: 2px;
+    padding: 7px;
+    width: 100px;
+}
+.middle{
+    margin-top: 140px;
+    margin-bottom: 200px;
+    display: flex;
+    grid-column: 2/3;
+    flex-direction: row;
+}
+.midText{
+    font-size: 35px;
+}
+.middle p{
+    margin-top: 30px;
+    font-size:15px;
+}
+.middle img{
+    object-fit: cover;
+    width:600px
+}
+.middle button{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: #F53838;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 0px 4px 10px -2px rgba(106, 45, 45, 0.3);
+}
+.down{
+    display: flex;
+    grid-column: 2/3;
+    background-color: white;
+    box-shadow: 0px 4px 10px -2px rgba(46, 45, 45, 0.3);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    padding-left: 120px;
+    display: flex;
+    flex: 1;
+    align-self: center;
+
+}
+.box img{
+    margin-right: 20px;
+}
+
+
+.features{
+    display: flex;
+    grid-column: 2/3;
+    margin: 100px 0px 100px 50px;
+    
+}
+.feature{  
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding-left: 100px;
+    align-content: space-around;
+}
+.lists{
+    display: grid;
+    grid-template-columns: 7% 1fr; 
+    margin-top: 20px; 
+    row-gap: 20px; 
+}
+.lists img{
+    grid-column: 1/2;
+    padding-left: 10px;
+}
+.featText{
+    grid-column: 2/3;
+    font-size: 12px;
+    align-content: center;
+}
+.plan{
+    grid-column: 2/3;
+    background-image: linear-gradient(to bottom,rgb(240, 240, 240), white);
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.planText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.headd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:100px 50px 100px 50px;
+    column-gap: 30px;
+}
+.first, .second, .third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content:space-around;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 10px;
+}
+.strokes{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    width: 200px;
+    row-gap: 20px; 
+}
+.strokes img{
+    grid-column: 1/2;
+}
+.strokes p{
+    align-content: center;
+    font-size: 14px;
+    grid-column: 2/3;
+}
+.third button{
+    border-width:0px; 
+    background-color: #F53838; 
+    border-radius: 40px; 
+    width: 150px; 
+    box-shadow: 0px 4px 10px -2px rgba(106, 45, 45, 0.3); 
+    color: white; 
+}
+.third button:hover{
+    background-color: #772323;
+}
+.world{
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2/3;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    padding-bottom: 100px;
+}
+.otziv{
+    padding-top:50px ;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.real{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    border:2px solid rgb(136, 136, 136);
+    border-radius: 7px;
+    padding: 30px 20px 30px 20px;
+}
+.scroll{
+    padding-top: 30px;
+}
