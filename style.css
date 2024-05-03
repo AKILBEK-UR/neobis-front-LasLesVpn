@@ -7,7 +7,12 @@
 }
 html {
   font-size: 62.5%;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:"Rubik",sans-serif;
+}
+p{
+    font-size:15px;
+    font-weight: lighter;
+    line-height: 30px;
 }
 .heading{
     margin-top: 40px;
@@ -21,6 +26,11 @@ html {
     flex-direction: row;
     flex-grow: 1;
 }
+a{
+    text-decoration: none;
+    color: #4F5665;
+    transition: color 0.3s ease;
+}
 .buttons{
     padding-left: 100px;
     padding-right: 100px;
@@ -28,8 +38,7 @@ html {
     flex: 1 1 0;
     justify-content:space-between;
     align-items: center;
-    border: none;
-    
+    border: none;  
 }
 button{
     background-color: transparent;
@@ -60,7 +69,7 @@ button{
     color: black;
 }
 .signup{
-    border-radius: 5px;
+    border-radius: 15px;
     border-color: #F53855;
     color:#F53855;
     border-width: 2px;
@@ -79,7 +88,7 @@ button{
 }
 .middle p{
     margin-top: 30px;
-    font-size:15px;
+    line-height: 30px;
 }
 .middle img{
     object-fit: cover;
@@ -144,7 +153,6 @@ button{
 .featText{
     grid-column: 2/3;
     font-size: 12px;
-    align-content: center;
 }
 .plan{
     grid-column: 2/3;
@@ -212,7 +220,7 @@ button{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 .otziv{
     padding-top:50px ;
@@ -230,4 +238,44 @@ button{
 }
 .scroll{
     padding-top: 30px;
+}
+.footer{
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    height: 600px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 100px;
+    padding-top: 170px;
+    justify-content: space-around;
+    
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.product, .engage, .Earn{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.product, .engage, .Earn p{
+    font-size: 16px;
 }

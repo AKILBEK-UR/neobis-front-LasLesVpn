@@ -6,26 +6,26 @@
     <title>LaslesVpn</title>
     <link rel = "stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
 </head>
 <body>
     <section class = "heading">
         <div class="up">
         <img src="./public/image/logo.png" alt="logo" class="logo" width="200px">
         <div class="buttons">
-            <button class="about">About</button>
-            <button class="about">Features</button>
-            <button class="about">Pricing</button>
-            <button class="about">Testimonials</button>
-            <button class="about">Help</button>
+            <a class="about" href="#about">About</a>
+            <a class="about" href="#features">Features</a>
+            <a class="about" href="#plan">Pricing</a>
+            <a class="about" href="#reviews">Testimonials</a>
+            <a class="about" href="#footer">Help</a>
         </div>
         <div class="signUps">
-            <button class="signin">Sign in</button>
+            <button class="signin"><b>Sign in</b></button>
             <button class="signup">Sign up</button>
         </div>
         </div>
-        <div class="middle">
+        <div class="middle" id="about">
             <div class="midText">
                 <h1>Want anything to be <br> easy with <b> LaslesVPN.</b></h1>
                 <p>Provide a network for all your needs with ease and fun using <b>LaslesVPN</b> <br>discover interesting features from us.</p>
@@ -48,11 +48,11 @@
                 <h1 style="font-size: 26px;">50+</h1>
             </div>
         </div>
-        <div class="features">
+        <div class="features" id="features">
             <img src="./public/image/woman2.png" alt="Woman" width="500px">
             <div class="feature">
                 <h1 style="font-size: 50px; ">We Provide Many <br>Features You Can Use</h1>
-                <p style="font-size: 12px; padding-top: 30px;">You can explore the features that we provide with fun <br> and have their own functions each feature.</p>
+                <p style="padding-top: 30px; line-height: 25px;">You can explore the features that we provide with fun <br> and have their own functions each feature.</p>
                 <div class="lists">
                     <img src="./public/image/ptichka.png" width="20px">
                     <p class = "featText"> Powerfull online protection.</p>
@@ -65,7 +65,7 @@
                 </div>
         </div>
         </div>
-        <div class="plan">
+        <div class="plan" id="plan">
             <div class="planText">
             <h1 style="font-size: 35px;">Choose Your Plan</h1>
             <p style="padding-top: 20px;font-size: 16px;"> Lets choose the package that is best for you and explore it happily and <br>cheerfully.</p>
@@ -133,7 +133,7 @@
             <img style="padding-top: 100px;" src="./public/image/world.png" width="1060px">
             <img src="./public/image/company.png" width="1060px" style="padding-top: 50px;">
         </div>
-        <div class="reviews">
+        <div class="reviews" id="reviews">
             <h1 style="font-size: 35px; text-align: center;">Trusted by Thousands of <br>Happy Customer</h1>
             <p style="font-size: 16px; text-align: center; padding-top: 40px;">These are the stories of our customers who have joined us with great<br> pleasure when using this crazy feature.</p>
             <div class = "otziv">
@@ -155,8 +155,44 @@
                 <img src="./public/image/circlebutton.png" width="150px" style="margin-left: 800px;">
             </div>
         </div>
+        <div class="footer" id="footer">
+            <div class="right">
+            <img src="./public/image/logo.png" width="200px">
+            <p style="padding-top: 20px; font-size: 16px;"><b>LaslesVPN</b> is a private virtual network that <br> has unique features and has high security.</p>
+            <div class="socials">
+                <img src="./public/image/twitter.png" alt="twitter" width="80px">
+                <img src="./public/image/facebook.png" alt="facebook" width="80px">
+                <img src="./public/image/instagram.png" alt="instagram" width="80px">
+            </div>
+            <p>©2020LaslesVPN</p>
+            </div>
+            <div class="left">
+                <div class="product">
+                    <p><b>Product</b></p>
+                    <p>Download</p>
+                    <p>Pricing</p>
+                    <p>Location</p>
+                    <p>Server</p>
+                    <p>Countries</p>
+                    <p>Blog</p>
+                </div>
+                <div class="engage">
+                    <p><b>LaslesVpn</b></p>
+                    <p>FAQs</p>
+                    <p>Tutorials</p>
+                    <p>About us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                </div>
+                <div class="Earn">
+                    <p><b>Earn Money</b></p>
+                    <p>Affiliate</p>
+                    <p>Become Partner</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
