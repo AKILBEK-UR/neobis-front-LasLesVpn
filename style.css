@@ -222,17 +222,20 @@ button{
 .signup2{
     width: 177px;
     height: 45px;
-    border-radius: 40px
+    border-radius: 40px;
+    border-color: #F53838;
+    color: #F53838;
+}
+.signup2:hover{
+    border-width: 0px;
+    background-color: #772323;
+    color: white;
 }
 .strokes p{
     grid-column: 2/3;
     font-size: 14px;
     line-height: 20px;
 }
-h3{
-    font-size: 2.5rem;
-}
-
 .third button{
     border-width:0px; 
     background-color: #F53838; 
