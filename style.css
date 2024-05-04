@@ -5,58 +5,59 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-  font-family:"Rubik",sans-serif;
+html{
+    font-size: 10px;
+    font-family:"Rubik",sans-serif;
 }
 p{
-    font-size:15px;
+    font-size:1.6rem;
     font-weight: lighter;
     line-height: 30px;
 }
+h2{
+    font-size:3.5rem;
+}
+h1{
+    font-size: 5rem;
+}
+.logo{
+    width: 150px;
+    margin-right: 100px;
+}
 .heading{
-    margin-top: 20px;
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 10% 1fr 15%;
+    grid-template-columns: 10% 1fr 1fr;
 }
 .up{
     grid-column: 2/3;
     display: flex;
-    gap: 10px;
     flex-direction: row;
     flex-grow: 1;
 }
 a{
     text-decoration: none;
     color: #4F5665;
+    font-size: 1.6rem;
 }
-.buttons{
+.bar{
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     flex: 1 1 0;
     justify-content:space-between;
     align-items: center;
-    border: none;  
 }
 button{
     background-color: transparent;
-    padding: 0;
-    box-shadow: none;
-    color: inherit; 
-    cursor: pointer;
-    color:#4F5665;
-}
-.about{        
-    font-size: 1.4rem;
-    border: none;
+    font-size: 1.6rem;
 }
 .about:hover {
     color:#000000;
 }
 .signUps{
-    width: 200px;
     display: flex;
+    gap: 30px;
     align-items: center;
     justify-content:space-around;
 }
@@ -68,12 +69,13 @@ button{
     color: black;
 }
 .signup{
-    border-radius: 15px;
+    border-radius: 50px;
     border-color: #F53855;
     color:#F53855;
-    border-width: 2px;
+    border-width: 1px;
     padding: 7px;
-    width: 100px;
+    width: 150px;
+    height: 45px;
 }
 .signup:hover{
     background-color: #F53855;
@@ -88,19 +90,24 @@ button{
     flex-direction: row;
 }
 .midText{
-    font-size: 35px;
+    line-height: 70px;
+    font-weight: lighter;
+    width: 555px;
 }
+
 .middle p{
     margin-top: 30px;
 }
 .middle img{
     object-fit: cover;
-    width:600px
+    width:611px;
+    height: 382px;
+    margin-left: 70px;
 }
 .middle button{
-    margin-top: 30px;
-    width: 200px;
-    height: 40px;
+    margin-top: 70px;
+    width: 250px;
+    height: 60px;
     background-color: #F53838;
     color: white;
     border-radius: 10px;
@@ -109,7 +116,7 @@ button{
 }
 
 .middle button:hover{
-    background-color: #ab2929;
+    background-color:#772323;
 }
 .down{
     display: flex;
@@ -119,58 +126,71 @@ button{
     border-radius: 10px;
     margin-bottom: 40px;
     height: 200px;
+    width: 1140px;
     justify-content: center;
     align-content: center;
 }
 .box{
-    padding-left: 120px;
     display: flex;
     flex: 1;
     align-self: center;
-
+    justify-content: center;
+}
+.users{
+    display: flex;
+    flex-direction: column;
 }
 .box img{
     margin-right: 20px;
+    width: 55px;
+    height: 55px;
 }
 .features{
     display: flex;
     grid-column: 2/3;
-    margin: 100px 0px 100px 50px;  
+    margin: 50px 0px 100px 0px;  
 }
 .feature{  
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     flex:1;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 .lists{
     display: grid;
     grid-template-columns: 7% 1fr; 
     margin-top: 20px; 
-    row-gap: 20px; 
+    line-height: 35px;
+    align-items: center;
 }
 .lists img{
     grid-column: 1/2;
-    padding-left: 10px;
-    padding-top: 7px;
+    width: 20px;
+    height: 20px;
 }
 .featText{
     grid-column: 2/3;
-    font-size: 12px;
+    font-size: 14px;
 }
 .plan{
-    grid-column: 2/3;
+    grid-column: 1/4;
     background-image: linear-gradient(to bottom,rgb(240, 240, 240), white);
     display: flex;
     border-radius: 10px;
     flex-direction: column;
-    padding-top: 70px;
+    padding: 100px 175px 50px 175px;
 }
 .planText{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.img1{
+    width: 110px;
+    height: 180px;
+    padding-top: 50px;
 }
 .headd{
     display: grid;
@@ -183,7 +203,8 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 700px;
+    height: 760px;
+    width: 330px;
     column-gap: 20px;
     border: 2px solid rgb(170, 170, 170);
     border-radius: 10px;
@@ -198,15 +219,25 @@ button{
 .strokes img{
     grid-column: 1/2;
 }
+.signup2{
+    width: 177px;
+    height: 45px;
+    border-radius: 40px
+}
 .strokes p{
     grid-column: 2/3;
+    font-size: 14px;
     line-height: 20px;
 }
+h3{
+    font-size: 2.5rem;
+}
+
 .third button{
     border-width:0px; 
     background-color: #F53838; 
-    border-radius: 40px; 
-    width: 150px; 
+    border-radius: 45px; 
+    width: 177px; 
     box-shadow: 0px 4px 10px -2px rgba(106, 45, 45, 0.3); 
     color: white; 
 }
@@ -214,10 +245,10 @@ button{
     background-color: #772323;
 }
 .world{
+    text-align: center;
     justify-content: space-between;
     align-items: center;
     grid-column: 2/3;
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
@@ -226,6 +257,7 @@ button{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
+    text-align: center;
 }
 .otziv{
     padding-top:50px ;
@@ -234,12 +266,14 @@ button{
     column-gap: 30px;
 }
 .real{
+    text-align: left;
     display: flex;
     flex-direction: column;
     width: min-content;
     border:2px solid rgb(136, 136, 136);
     border-radius: 7px;
     padding: 30px 20px 30px 20px;
+    line-height: 20px;
 }
 .scroll{
     padding-top: 30px;
@@ -255,9 +289,6 @@ button{
     background-color: white;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09); 
 }
-h2{
-    font-size: 35px;
-}
 .subbutton{
     background-color: #F53838;
     color: white;
@@ -265,7 +296,9 @@ h2{
     height: 50px;
     border-radius: 15px;
     border-width: 0px;
-}.subbutton:hover{
+    box-shadow: 0px 4px 10px -2px rgba(106, 45, 45, 0.3);
+}
+.subbutton:hover{
     background-color:#772323;
 }
 .jhg{
